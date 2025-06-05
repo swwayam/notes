@@ -1,0 +1,88 @@
+Software Development Life Cycle (SDLC)
+
+
+Overview 
+
+- The Lifecycle refers to a set of defined steps that we have to follow as we create software, especially if we want that software to be high-quality.
+- SDLC is a methodology that defines the steps needed for software development teams to create great software.
+- It covers everything from the objective (the problems that we are trying to solve with out software) to the deployment of the solution (the software itself).
+- It's a cycle because deploying the solution is not only the last step in an iteration; It also marks the start of a new.
+
+
+Stages - 
+
+1) Plan Stage
+
+- Developers should determine the costs and resources needed to create the solution during this plan.
+
+2) Design
+
+- A team would ofter define the solution's structure, such as the way an app may connect to a server or a database. Following a design pattern.
+
+3) Code 
+
+- Knowing the requirements, the resources limitations, and the solution's structure. It's time to start coding.
+
+4) Testing 
+
+- A team must test against the requirements to ensure that the solution meets them. The team should also test for defects - the dreaded bugs - and let the developers know of any issues.
+
+5) Deployment
+
+- Deployment stage is both the final step and the first one since it will mark the beginning of the next iteration.
+
+
+Reasons for not building a feature / idea -
+
+1) The value isn't there 
+
+- Either too few users will benefit from this, or the feature barely has any positive impact.
+
+2) The usability isn't there
+
+- A feature may be valuable, but no one will use it if it is too complicated to operate.
+
+3) The feasibility isn't there
+
+- It is possible that with the current resources, a solution may be impossible to create, or it may draw focus away from more critical objectives.
+
+4) The business viability isn't there
+
+- It may not make financial sense to implement a feature. This one is tricky for enterprise companies with legacy solutions that may be threatened by innovative teams.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
