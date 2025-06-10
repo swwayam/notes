@@ -1,0 +1,38 @@
+MCP (Model Context Protocol)
+
+2 Parts -
+
+1) Clients (LLM's)
+2) Servers (Typical Servers exposing API's)
+
+
+LLM decide's what to do based on the situation.
+
+
+Use Cases -
+
+1) Search Engine Optimization ( Language Model Optimization ) 
+2) RAG 
+3) Applications (Agent's act as an aggregator)
+
+
+Project to Try -
+
+1) Creation of MCP server
+2) Authenticaton for MCP's
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,68 @@
+Vector Databases -
+
+- It does a simple task i.e given an object -> find similar object
+
+
+Scalling Laws -
+
+Ref - https://youtu.be/_Y3BfN9v3sA?si=mY4iVzWU3giCaEbz
+
+- Reduce parameter size and store in the GPU cache makes the model fast.
+
+
+1) Bigger Model = Better output
+	- Training large models takes time
+	- As there is backpropagation then the data needs to be passed through all the edges, Large model takes time.
+	
+2) More time spent per data point
+	- Makes the model smarter
+	-  
+	
+
+Can we make backpropagation faster? 
+
+- We don't have to update all the weights of the transformer. Instead we can only update the ones that are relevant to the output. Only these parts will go through retraining. This reduces time that model takes to go through different inputs.
+
+
+- Not every datapoint is important or usefull, If their is not a lot of information in the datapoint, these need not to be updated.
+
+Example - 
+
+* Data (Nothing useful here as we already know) -
+	The sun will rise from the east tomorrow.
+
+* Information (Here there is a new thing, I will have to update / retrain my model) -
+	The sun will rise from west tomorrow.
+	
+	(Data point that has surprise , entropy)
+
+
+
+
+Research Papers Links - 
+
+References:
+1.58 bit model:
+ByteDance - https://chenglin-yang.github.io/1.58b...
+Microsoft - https://arxiv.org/pdf/2402.17764
+1B model outperforms 405b: https://arxiv.org/abs/2502.06703
+Sakana AI Transformer square: https://arxiv.org/pdf/2501.06252
+Google Titans: https://arxiv.org/pdf/2501.00663
+FlashAttention: https://arxiv.org/pdf/2407.08608
+Memristor: https://www.nature.com/articles/s41586-024-07902-2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

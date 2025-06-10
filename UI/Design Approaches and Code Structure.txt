@@ -1,0 +1,45 @@
+A design-first approach emphasizes the core and individual visual elements of an application. Rather than viewing everything as ‘pages’, each element is constructed as stand-alone modules where functionality can be hooked in.
+
+
+* Atomic Design Principles -
+
+This deals with breaking down each element in an application to its smallest component, then bringing them together as necessary to form collections that are eventually used to form templates. These templates are then placed on pages to construct the final view.
+
+
+Ref - https://bradfrost.com/blog/post/atomic-web-design/?ref=matcha.fyi
+
+
+Way's to structure react application: 
+
+1) Feature Based Grouping
+2) ATOMIC Design
+3) Route Based Grouping
+4) File types grouping
+5) Hexagonal architecture
+
+
+Refs -
+
+1) https://matcha.fyi/react-app-files/
+2) Domain Driven Design - https://en.wikipedia.org/wiki/Domain-driven_design?ref=matcha.fyi
+3) Hexagonal Design - https://en.wikipedia.org/wiki/Hexagonal_architecture_(software)?ref=matcha.fyi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
