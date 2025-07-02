@@ -6,6 +6,11 @@ Components are independent and reusable bits of code. They serve the same purpos
 
 Components come in two types, Class components and Function components, in this tutorial we will concentrate on Function components.
 
+Controlled and Uncontrolled Components -
+
+Controlled and uncontrolled components are two approaches used in React to handle form inputs and user interactions. Controlled components are form elements (like input, textarea, or select) that are managed by React state, meaning the value of the form element is set and updated through React state, making React the "single source of truth" for the form data. In contrast, uncontrolled components manage their own state internally, relying on the DOM to handle form data rather than React state.
+
+
 * Props -
 
 Props is the data that we pass to a component 
@@ -16,6 +21,51 @@ Props is the data that we pass to a component
 * State 
 
 State refers to current condition of a systems or data at a specific point in time.
+
+
+* Effects in Software Development
+
+In software developemnt the term effects refers to observable changes or consquences produced by a programs execution. As a program runs it will alter state of things beyond itself. It's very rare to have a program that runs in isolation without affecting anything.
+
+- Key aspects of effects in software development 
+
+a) Side Effects:
+Any observable behaviour of a function or program that goes beyond it's purpose of returning a value. It invloves interactions with external entities such as modifying global variables, making network request and as well updating external states.
+
+Example - A function that takes a request and updates database entry. The update of the database is affecting an external entity that is considered an update of an side effect of a function.
+
+b) State and State Management:
+
+Effects often show up as state changes in the application. Calling a function can have side effects where the state of the program is updated which may then futher trigger another part of program to execute.
+
+c) External Integrations:
+
+Software often interacts with external serveices such as API's or Databases the effects of this integration can include data retrival, updates, storage which can influence the overall behaviour of the application.
+
+
+UseEffect In React -
+
+It has 3 parts : 1 ) The code to run
+		 2 ) The dependency array
+		 3 ) The optional cleanup function ( This runs before the next iteration of useEffect)
+
+
+UseRef In React - 
+
+UseRef allows you to directly manipluate DOM elements and as well help you to bypass the component lifecycle. .current is where you can access and modify the values.
+
+* Forms 
+
+- Not to use e.preventDefault() or e.stopPropagation() to often. As it can alter state in a unexpected ways.
+- Solution instead use a callback function that would use the pending state to make the updates.
+
+Example - setCount((prevCount) => prevCount + 1); // prevCount refers to the pending state
+
+
+* useState() -
+
+- Everytime a new value is set, it changes on the next render of the component. So if multiple set's are called simantaneously they still will refer to the previous value.
+
 
 
 * useContext() Hook -

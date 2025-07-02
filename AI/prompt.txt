@@ -1,0 +1,83 @@
+
+Frameworks for Prompt Engineering:
+
+1) PSR Framework (Problem-Solution-Result) 
+
+Example prompt : 
+
+Problem Statement Is: I need to plan a family dinner that can accommodate everyone's dietary restrictions like diabetes and Hypertension.
+
+Solution: I am lookin gfor a receipe that includes options for vegetarian, gluten-free, and low sugar.
+
+Result: The dinner includes a vegetable platter, gluten-free pasta, and a sugar-free desert.
+
+
+2) Role-Purpose-Target Framework
+
+
+Example prompt:
+
+Scenario: AI Financial Advisor
+
+Role: Financial advisor
+
+Purpose: Assist in creating a personalized retirement plan.
+
+Target: Provide detailed recommendations and specific investment strategies for a requested slice of population (e.g. Baby Boomers) as people born between 1946 and 1964
+
+
+3) IF-THEN-ELSE (ITE) Framework
+
+Example prompt : 
+
+Scenario: Home Security System
+
+Generate a python code for home security system.
+
+IF: Intruder is detected at front door
+THEN: Send the homeowner a notification and trigger the main lights to turn on.
+ELSE: If no intruder detected, maintain current status.
+
+
+4) Task-Situation-Outcome Framework
+
+Example prompt : 
+
+Scenario: Developing a Project plan for Mobile Shopping App
+
+Task: Create a responsive, secure mobile app for online shopping.
+
+Situation: Your team includes five developers, two designers, and one project manager. The project is scoped for a 6-month timeline with regular milestones.
+
+Outcome: Launch a fully functional mobile shopping app with enhanced security features that meets both user and security needs by the end of 6 months.
+
+
+5) Principle-Process-Application (PPA) Framework
+
+Example prompt : 
+
+Scenario: Suggest Sustainable Living choices in daily actions
+
+Principle: Minimize environmental impact through daily actions
+
+Process: Use reusable bags for shopping, Turn off lights and unplug electronics when not in use, use public transport and carpool.
+
+
+Application: Apply these principles by integrating them into everyday routines and making mindful choices in consumption and transportation habbits.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

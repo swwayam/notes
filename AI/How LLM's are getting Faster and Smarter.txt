@@ -7,7 +7,7 @@ Scalling Laws -
 
 Ref - https://youtu.be/_Y3BfN9v3sA?si=mY4iVzWU3giCaEbz
 
-- Reduce parameter size and store in the GPU cache makes the model fast.
+- Reducing parameter size and store in the GPU cache makes the model fast.
 
 
 1) Bigger Model = Better output

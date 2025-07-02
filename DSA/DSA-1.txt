@@ -1,0 +1,47 @@
+Time Complexity Analysis:
+
+* Time complexity is a measure of the number of operations performed per input data. Rate of change of operations with the size of the input.
+
+* While computing Time Complexity one should always consider worst case scenarios. Which is represented by bigO i.e O()
+
+Some Common Annotations :
+
+1) O(n) for linear operations
+2) O(1) for constant operations
+
+
+Space Complexity Analysis:
+
+* Space complexity is a measure of the amount of space requried to run the program / algorithm.
+
+
+TC and SC are inversely proportional, meaning if you optimize of space time increases and vice-versa. This is true most of the time, though there are some exceptions.
+
+
+
+
+Arrays:
+
+1) Heterogenous Arrays: Arrays containing different datatypes
+2) Homogenous Arrays: Arrays containing same datatypes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
