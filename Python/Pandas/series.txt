@@ -1,8 +1,0 @@
-Series: is one-dimensional labeled array capable of holding any data type. This axis labels are collectively referred to as the index.
-
-Attributes: Attributes return the information about the object.
-
-Methods: Perform actions and can even change the original object.
-
-
-

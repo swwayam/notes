@@ -1,0 +1,6 @@
+https://leetcode.com/problems/permutations/ | I was not able to solve this as I didn't know backtracking.
+
+
+Go For the Following linkedlist questions for interviews - 
+
+

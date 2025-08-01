@@ -22,7 +22,7 @@ Success is = Showing up to work everyday consistently + Evolving the system by r
 
 - Your system should be constently evolving, Initial days your error rate will be more, the dropout rate will be higher. You need to evaluate, understand yourself on :
 
-a) How you brain works?
+a) How your brain works?
 b) What things best work for me?
 c) What are the things that trigger a chance of error / failure?
 d) How can I avoid C?

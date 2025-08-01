@@ -1,0 +1,20 @@
+
+*********** Series ************
+
+Series: is one-dimensional labeled array capable of holding any data type. This axis labels are collectively referred to as the index.
+
+Attributes: Attributes return the information about the object.
+
+Methods: Perform actions and can even change the original object.
+
+
+********** DataFrame **********
+
+DataFrame: It is a 2 dimensional labeled data structure with columns of potentially different types. You can think of it like a spreadsheet or SQL table, or a dict of Series Object. It is generally the most commonly used pandas object.
+
+- Essentially is just comprised of 2 or more series
+- axis = 0 refers to the index.
+- axis = 1 refers to the columns.
+
+
+

@@ -1,0 +1,66 @@
+
+AWS (Amazon Web Services) -
+
+History:
+
+2002 - internally launched
+2003 - Amazon infrastructure is one of their core strength. Ideal to market.
+2004 - Launched publicly with SQS
+2006 - Re-Launched publicly with SQS, S3 & EC2
+2007 - Launched in Europe
+
+
+AWS Cloud Use Cases -
+
+* AWS enables users to build sophisticated, scalable applications
+* Applicable to a diverse set of industries
+* Use case include
+	- Enterprise IT, Backup and Storage, Big Data analytics
+	- Website hosting, Mobile & Social Apps
+	- Gaming
+	
+
+
+AWS Global Infrastructure
+
+* AWS Regions
+* AWS Availablity Zones
+* AWS Data Centers
+* AWS Edge Locations / Points of Presence
+
+
+AWS Regions 
+
+* AWS has Regions all around the world
+* Names can be us-east-1, eu-west-1..
+* A region is a cluster of data centers
+* Most AWS services are region-scoped
+
+
+How to choose an AWS Region?
+
+1) Compliance
+2) Proximity
+3) Available services
+4) Pricing
+
+
+AWS Availablity Zone
+
+* Each region has many availablity zones (Usually 3, min is 3, max is 6). Example:
+	- ap-southeast-2a
+	- ap-southeast-2b
+	- ap-southeast-2c
+	
+* Each availablity zone (AZ) is one or more discrete data centers with redudant power, networking and connectivity.
+
+* They are seperate from each other so that they are isolated from disasters.
+
+* They are connected with high bandwidth, ultra-low latency networking.
+
+
+
+
+
+
+

@@ -18,16 +18,122 @@ Space Complexity Analysis:
 TC and SC are inversely proportional, meaning if you optimize of space time increases and vice-versa. This is true most of the time, though there are some exceptions.
 
 
-
-
 Arrays:
 
 1) Heterogenous Arrays: Arrays containing different datatypes
 2) Homogenous Arrays: Arrays containing same datatypes
 
 
+Strings: 
+
+1) Substring : Continuous block of string eg - SWA, YAM, AM, WA
+2) Subsequence : Continuous block of code with an exception to skip a character eg - SWM, AYM
+
+A subsequence can be a substring but every substring may not be a subsequence.
+
+1) prefix: When you start picking the characters from the start of the string eg: SWAYAM
+2) postfix: When you start picking the characters from the end of the string eg: MAYAWS
 
 
+
+Stack (LIFO): 
+
+Methods : push() or insert() , pop() or delete(), top() or peek(), size(), isEmpty()
+Expensive : Searching and Sorting (Since stack dosen't have indexed based access)
+
+
+Queue (FIFO):
+
+- It is linear and array linked datastructure
+- Terms : Front , Rear
+- Methods: insert() or push() or enqueue() , delete() or pop() or dequeue(), size(), isEmpty(), front()
+- Types : Simple Queue, Circular Queue, Priority Queue (SORT), Doubly ended Queue
+
+
+Priority Queue:
+
+- It works on Heap (Heap is a datastructure which is built on top of trees)
+- PQ will help you get maximum or minimum element present in it.
+- PQ can be of 2 different types - max pq and min pq.
+- Methods : push(), pop(), top(), isEmpty(), size() 
+- Expensive - Searching Operation takes (nlogn) arrays are better for searching takes o(n)
+
+
+
+
+Maps and Hash Maps:
+
+
+
+
+Recursion:
+
+- It is a technique where a function calls itself to solve complex problems by breaking them down into smaller sub problems.
+- Identify the following to solve a recusrion problem -
+
+	1) Base Case - Stopping condition (Trival Test Cases).
+	2) Recursive Condition - Solution is expressed in terms	of smaller version of itself.
+	3) Function Signature - Input and Output to a function.
+
+
+
+Linked List:
+
+- It's a linear data structure
+- It's a chain like structure where each individual item is called node.
+- In LinkedList you have head pointer that gives you starting point of the linkedlist.
+
+- Node : 
+	1) A node in a linked list is a fundamental unit that stores data and a reference to the next node in the sequence.
+
+
+- Types :
+	1) Single Linked List
+	2) Double Linked List
+	3) Circular Linked List
+
+- Sorting in linked list is difficult can take o(n2)
+
+- Advantages of Linked list as Compared to Array 
+
+	* Insertion or Deletion this take o(1) | array can take o(n) time
+	* Both of them are dynamic in nature.
+	
+- When to use :
+	* When you don't know number of items (use dynamic array or linkedList)
+	* Need fast insert and delete.
+	
+
+
+Trees:
+
+- Tree is a type of grap data structure. In trees we don't have cycles unlike graph.
+- If there are n node and n - 1 edges, then you are looking at a tree datastructure.
+
+- Types of Trees:
+	1) Uniary Tree - Every node will have atmost 1 child nodes, also called skewed trees.
+	2) Binary Tree - Every node will have atmost 2 child nodes.
+	3) Ternary Tree- Every node will have atmost 3 child nodes.
+	4) n-array Tree- Every node will have n child nodes.
+
+- Root Node has no parents
+- Leaf Nodes are the nodes that don't have any child.
+- Tree is a non-linear data structure
+- When there is hierarchy in the problem tree data structure can be used.
+
+- Tree Traversal
+
+	* DFS (Depth First Search)
+		- pre order
+		- in order
+		- post order
+		
+		We use stack datastructure
+	
+	* BFS (Breadth First Search)
+		- level order
+
+		We use queue datastructure
 
 
 
