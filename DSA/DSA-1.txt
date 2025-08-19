@@ -76,6 +76,14 @@ Recursion:
 	3) Function Signature - Input and Output to a function.
 
 
+Tail Recursion :
+
+- A function is called tail recursive when the parent dosen't have anything to execute after the child function has returned.
+- A function is called tail recursive when the last thing that happens in the function is the recurisve call.
+
+
+- Modern compilers do tail call elimination to optimize the code.
+
 
 Linked List:
 
